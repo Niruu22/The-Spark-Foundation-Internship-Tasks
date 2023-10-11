@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahyadri Foundation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section id="#" class="header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#donate">Why Donate</a></li>
+
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#About">About Us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-list" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Educate for Equality: Support Child Education</h1>
+        <p>
+          Donating to the education of poor children is a transformative cause
+          with far-reaching impact. It breaks the cycle of poverty, promotes
+          equality, and empowers disadvantaged youth with the knowledge and
+          skills they need to improve their lives. Education not only benefits
+          individual children but also contributes to the overall development of
+          communities and societies.
+        </p>
+        <a href="https://rzp.io/l/o0EWl8l7" target="_blank" class="hero-btn"
+          >Donate Now</a
+        >
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="card text-center">
+        <div class="card-header">
+          <h2 id="donate" class="donate">Why Donate ?</h2>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">
+            "We donate to create a better world and uplift those in need."
+          </h5>
+          <p class="card-text">
+            "We donate to provide hope and opportunity where it's needed most.
+            Many underprivileged children face barriers to education and a life
+            free from poverty. By donating, we become a catalyst for change,
+            ensuring that these children not only have access to education but
+            also the chance to break the cycle of poverty. Our contributions
+            provide them with the tools they need to build better lives, shaping
+            a brighter future for our communities and the world."
+          </p>
+          <a
+            href="https://rzp.io/l/o0EWl8l7"
+            target="_blank"
+            class="btn btn-info"
+            >Donate here..!</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-flex flex-row">
+      <div class="card" style="width: 18rem">
+        <img src="img/education.jpg" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Education..!</h5>
+          <p class="card-text">
+            "Your donation lights the path to a brighter future through
+            education. Make a difference today."
+          </p>
+          <a
+            href="https://rzp.io/l/o0EWl8l7"
+            target="_blank"
+            class="btn btn-success"
+            >Donate For Education</a
+          >
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/food.jpg" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Food..!</h5>
+          <p class="card-text">
+            "Your donation nourishes bodies and souls. Help us fight hunger one
+            meal at a time."
+          </p>
+          <a
+            href="https://rzp.io/l/o0EWl8l7"
+            target="_blank"
+            class="btn btn-warning"
+            >Donate for Food</a
+          >
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img src="img/clothes.jpg" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Clothes</h5>
+          <p class="card-text">
+            "Share the warmth of giving. Your donation provides clothing and
+            comfort to those in need.
+          </p>
+          <a
+            href="https://rzp.io/l/o0EWl8l7"
+            target="_blank"
+            class="btn btn-danger"
+            >Donate for Clothes</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!---JavaScript for Toggle Menu----->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-280px";
+      }
+    </script>
+
+    <!-- Contact Us -->
+
+    <div class="conatiner">
+      <h2 style="text-align: center ">Be a Volunteer..!</h2>
+      <div id="contact" class="contact-us">
+        <div class="rows">
+          <div class="contact-col">
+            <div class="location">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.803236364539!2d103.7730869746163!3d1.2924723617583231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a558f37cec3%3A0x3fb858b191c21b0f!2sThe%20Sparks%20Foundation!5e0!3m2!1sen!2sin!4v1697007504424!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="contact-col">
+            <form action="">
+              <input type="text" placeholder="Enter your name" required />
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                required
+              />
+              <input type="text" placeholder="Enter your subject" required />
+              <textarea name="" id="" rows="8" placeholder="Message"></textarea>
+              <button type="submit" class="btn btn-danger">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---Footer----->
+
+    <div class="container">
+      <div class="footer">
+        <h2 id="About">About Us</h2>
+
+        <p>
+          At Spark Donation, our mission is simple yet profound: we believe in
+          the power of kindness and the potential for positive change. Our focus
+          areas encompass Education, Food, and Clothing, and our goal is to
+          ignite hope in the lives of those in need. 
+        </p>
+
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+
+        <p>Task #3 Payment Integration Gateway</p> 
+        <p>Design by <b>Niraj Saraf</b>  Web development Intern at The Spark Foundation  <i class="fa fa-heart-o"></i></p>
+       
+      </div>
+    </div>
+  </body>
+</html>
